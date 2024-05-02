@@ -3,12 +3,11 @@ defmodule AllStrings do
   Some basic string manipulation shenanigans!
   """
 
-
   @doc """
   Returns the first non-whitespace character in the given `value`.
   ## Examples
     iex> AllStrings.first_letter("  walter white  ")
-    "h"
+    "w"
   """
   def first_letter(value) do
     value
