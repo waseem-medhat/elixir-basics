@@ -34,7 +34,7 @@ defmodule SaucerPreflight do
     iex> SaucerPreflight.below_max_load?([{30, :kg, 1}])
     false
 
-    iex> SaucerPreflight.below_max_load?([{20, :lb, 1}, {40, :lb, 1}])
+    iex> SaucerPreflight.below_max_load?([{20, :lb, 1}, {38, :lb, 1}, {40, :lb, 1}])
     false
 
     iex> SaucerPreflight.below_max_load?([{10, :lb, 8}])
